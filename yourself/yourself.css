@@ -11,32 +11,24 @@ header {
     top: 0;
     z-index: 10;
 }
-  
-  .logo {
+.logo {
     width: 124px;
     margin-top: 20px;
-  }
-  
-  .header-left {
+}
+.header-left {
     float: left;
-  }
-  
-  .header-right {
+}
+.header-right {
     float: right;
-    margin-right: -25px;
-  }
-  
-  .header-right a {
+    margin-right: 25px;
+    padding: -.5em 1em;
+    text-align: right;
+}
+.header-right a {
     line-height: 65px;
     padding: 0 25px;
-    color: white;
-    display: block;
-    float: left;
-    transition: all 0.5s;
-  }
-  .header-right a:hover {
-    background-color: rgba(255, 255, 255, 0.3);
-  }
+    color: black;
+}
 section {
   max-width: 300px;
   margin: 0 auto;
